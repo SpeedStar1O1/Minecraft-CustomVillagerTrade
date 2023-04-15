@@ -8,7 +8,7 @@ Furthermore, the screenshot displays one of the customized trades for the librar
 
 Overall, the code in the file provides a powerful tool for customizing villagers and enhancing gameplay in Minecraft.
 
-# Picture tf the Code
+# Picture of the Code
 ![Screenshot](https://user-images.githubusercontent.com/122061061/232193540-0efe3fe3-f4e4-4259-90e4-d2192098ab4b.png)
 
 # Picture of the Villager 
