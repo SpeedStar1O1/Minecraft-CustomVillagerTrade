@@ -29,5 +29,5 @@ To obtain a command block in Minecraft, use the following command: /give @s mine
 # Get a Button
 ![getbutton](https://user-images.githubusercontent.com/122061061/232194128-4463ec7c-e947-40eb-89a9-1e8af74e0f98.png)
 
-#Copy & Paste
+# Copy & Paste
 ![copypaste](https://user-images.githubusercontent.com/122061061/232194126-33faa529-94b6-4383-b95c-d0bb661d09fb.png)
