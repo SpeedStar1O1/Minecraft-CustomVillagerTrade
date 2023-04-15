@@ -1,4 +1,4 @@
-# Minecraft Custom Villager Trade
+# Minecraft Custom Villager Trade (no mods needed)
 
 The code provided in the file enables the customization of various aspects of a villager, including their trades, professions, level, and name. It is important to note that this customization is only available in creative mode.
 
