@@ -1,0 +1,34 @@
+summon minecraft:villager ~ ~ ~ {
+    VillagerData: {
+        level:10,
+        profession:"minecraft:farmer"
+    },
+    Offers:{
+        Recipes:[
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:golden_carrot",
+                    Count:64b
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:wheat",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:emerald", 
+                    Count:64b
+                },
+                maxUses:10000
+            }
+        ]
+    },
+    Invulnreable:1b,
+    CustomName:'{"text":"Cooper","color":"red","italic":"false"}'
+}

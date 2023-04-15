@@ -1,0 +1,35 @@
+summon minecraft:villager ~ ~ ~ {
+    VillagerData: {
+        level:10,
+        profession:"minecraft:cleric"
+    },
+    Offers:{
+        Recipes:[
+            {
+                buy:{
+                    id:"minecraft:rotten_flesh",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:emerald",
+                    Count:64b
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:ender_pearl",
+                    Count:16b
+                },
+                maxUses:10000
+            }
+
+        ]
+    },
+    Invulnreable:1b,
+    CustomName:'{"text":"John","color":"pink","italic":"false"}'
+}
