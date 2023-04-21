@@ -8,11 +8,11 @@ summon minecraft:villager ~ ~ ~ {
         Recipes:[
             {
                 buy:{
-                    id:"minecraft:book",
+                    id:"minecraft:emerald",
                     Count:1b
                 },
                 sell:{
-                    id:"minecraft:emerald", 
+                    id:"minecraft:totem_of_undying", 
                     Count:64b
                 },
                 maxUses:10000
@@ -23,10 +23,11 @@ summon minecraft:villager ~ ~ ~ {
                     Count:1b
                 },
                 sell:{
-                    id:"minecraft:enchanted_book",
+                    id:"minecraft:netherite_helmet",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:channeling,lvl:1},{id:loyalty,lvl:10},{id:mending,lvl:10},{id:unbreaking,lvl:10}{id:vanishing_curse,lvl:1}]
+                        Unbreakable:1,
+                        Enchantments:[{id:aqua_affinity,lvl:10},{id:respiration,lvl:10},{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
                     }
                 },
                 maxUses:10000
@@ -37,10 +38,11 @@ summon minecraft:villager ~ ~ ~ {
                     Count:1b
                 },
                 sell:{
-                    id:"minecraft:enchanted_book",
+                    id:"minecraft:netherite_chestplate",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:sharpness,lvl:10},{id:unbreaking,lvl:10},{id:mending,lvl:10},{id:sweeping,lvl:10},{id:looting,lvl:10},{id:vanishing_curse,lvl:1}]
+                        Unbreakable:1,
+                        Enchantments:[{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
                     }
                 },
                 maxUses:10000
@@ -51,10 +53,11 @@ summon minecraft:villager ~ ~ ~ {
                     Count:1b
                 },
                 sell:{
-                    id:"minecraft:enchanted_book",
+                    id:"minecraft:netherite_leggings",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:mending,lvl:10},{id:unbreaking,lvl:10},{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1},{id:binding_curse,lvl:1}]
+                        Unbreakable:1,
+                        Enchantments:[{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
                     }
                 },
                 maxUses:10000
@@ -65,10 +68,11 @@ summon minecraft:villager ~ ~ ~ {
                     Count:1b
                 },
                 sell:{
-                    id:"minecraft:enchanted_book",
+                    id:"minecraft:netherite_boots",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:mending,lvl:10},{id:unbreaking,lvl:10},{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
+                        Unbreakable:1,
+                        Enchantments:[{id:feather_falling,lvl:10},{id:soul_speed,lvl:10},{id:depth_strider,lvl:10},{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
                     }
                 },
                 maxUses:10000
@@ -79,10 +83,11 @@ summon minecraft:villager ~ ~ ~ {
                     Count:1b
                 },
                 sell:{
-                    id:"minecraft:enchanted_book",
+                    id:"minecraft:shield",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:mending,lvl:10},{id:unbreaking,lvl:10},{id:efficiency,lvl:10},{id:fortune,lvl:10},{id:vanishing_curse,lvl:1}]
+                        Unbreakable:1,
+                        Enchantments:[{id:vanishing_curse,lvl:1}]
                     }
                 },
                 maxUses:10000
@@ -93,8 +98,132 @@ summon minecraft:villager ~ ~ ~ {
                     Count:1b
                 },
                 sell:{
-                    id:"minecraft:totem_of_undying", 
+                    id:"minecraft:turtle_helmet",
+                    Count:1b,
+                    tag:{
+                        Unbreakable:1,
+                        Enchantments:[{id:aqua_affinity,lvl:10},{id:respiration,lvl:10},{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
+                    }
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
                     Count:1b
+                },
+                sell:{
+                    id:"minecraft:elytra",
+                    Count:1b,
+                    tag:{
+                        Unbreakable:1,
+                        Enchantments:[{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
+                    }
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:golden_leggings",
+                    Count:1b,
+                    tag:{
+                        Unbreakable:1,
+                        Enchantments:[{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
+                    }
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:leather_boots",
+                    Count:1b,
+                    tag:{
+                        Unbreakable:1,
+                        Enchantments:[{id:feather_falling,lvl:10},{id:soul_speed,lvl:10},{id:depth_strider,lvl:10},{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
+                    }
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:netherite_sword",
+                    Count:1b,
+                    tag:{
+                        Unbreakable:1,
+                        Enchantments:[{id:sharpness,lvl:10},{id:looting,lvl:10},{id:sweeping,lvl:10},{id:fire_aspect,lvl:10},{id:knockback,lvl:2}]
+                    }
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:netherite_shovel",
+                    Count:1b,
+                    tag:{
+                        Unbreakable:1,
+                        Enchantments:[{id:efficiency,lvl:10},{id:silk_touch,lvl:1}]
+                    }
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:netherite_pickaxe",
+                    Count:1b,
+                    tag:{
+                        Unbreakable:1,
+                        Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:3}]
+                    }
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:netherite_axe",
+                    Count:1b,
+                    tag:{
+                        Unbreakable:1,
+                        Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:3}]
+                    }
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:netherite_hoe",
+                    Count:1b,
+                    tag:{
+                        Unbreakable:1,
+                        Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:3}]
+                    }
                 },
                 maxUses:10000
             }
