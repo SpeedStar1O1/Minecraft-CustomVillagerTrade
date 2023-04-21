@@ -1,7 +1,8 @@
 summon minecraft:villager ~ ~ ~ {
     VillagerData: {
         level:10,
-        profession:"minecraft:farmer"
+        profession:"minecraft:farmer",
+        type:"snow"
     },
     Offers:{
         Recipes:[
@@ -26,9 +27,53 @@ summon minecraft:villager ~ ~ ~ {
                     Count:64b
                 },
                 maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:carrot",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:emerald", 
+                    Count:64b
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:potato",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:emerald", 
+                    Count:64b
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:pumpkin",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:emerald", 
+                    Count:64b
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:melon",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:emerald", 
+                    Count:64b
+                },
+                maxUses:10000
             }
         ]
     },
     Invulnreable:1b,
-    CustomName:'{"text":"Cooper","color":"red","italic":"false"}'
+    CustomName:'{"text":"Carlos","color":"black","italic":"false"}'
 }

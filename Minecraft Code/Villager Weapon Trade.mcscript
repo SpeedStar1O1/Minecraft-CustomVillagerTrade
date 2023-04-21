@@ -1,7 +1,7 @@
 summon minecraft:villager ~ ~ ~ {
     VillagerData: {
         level:10,
-        profession:"minecraft:armorer",
+        profession:"minecraft:weaponsmith",
         type:"snow"
     },
     Offers:{
@@ -12,10 +12,10 @@ summon minecraft:villager ~ ~ ~ {
                     Count:1b
                 },
                 sell:{
-                    id:"minecraft:diamond_helmet",
+                    id:"minecraft:iron_sword",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:unbreaking,lvl:3},{id:protection,lvl:4}]
+                        Enchantments:[{id:unbreaking,lvl:3},{id:sharpness,lvl:5}]
                     }
                 },
                 maxUses:10000
@@ -26,10 +26,10 @@ summon minecraft:villager ~ ~ ~ {
                     Count:1b
                 },
                 sell:{
-                    id:"minecraft:diamond_chestplate",
+                    id:"minecraft:iron_axe",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:unbreaking,lvl:3},{id:protection,lvl:4}]
+                        Enchantments:[{id:unbreaking,lvl:3},{id:sharpness,lvl:5}]
                     }
                 },
                 maxUses:10000
@@ -40,10 +40,10 @@ summon minecraft:villager ~ ~ ~ {
                     Count:1b
                 },
                 sell:{
-                    id:"minecraft:diamond_leggings",
+                    id:"minecraft:diamond_sword",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:unbreaking,lvl:3},{id:protection,lvl:4}]
+                        Enchantments:[{id:unbreaking,lvl:3},{id:sharpness,lvl:5}]
                     }
                 },
                 maxUses:10000
@@ -54,10 +54,10 @@ summon minecraft:villager ~ ~ ~ {
                     Count:1b
                 },
                 sell:{
-                    id:"minecraft:diamond_boots",
+                    id:"minecraft:diamond_axe",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:unbreaking,lvl:3},{id:protection,lvl:4}]
+                        Enchantments:[{id:unbreaking,lvl:3},{id:sharpness,lvl:5}]
                     }
                 },
                 maxUses:10000
@@ -66,5 +66,5 @@ summon minecraft:villager ~ ~ ~ {
         ]
     },
     Invulnreable:1b,
-    CustomName:'{"text":"Billy","color":"blue","italic":"false"}'
+    CustomName:'{"text":"Danny","color":"white","italic":"false"}'
 }

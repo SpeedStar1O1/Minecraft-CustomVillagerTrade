@@ -26,7 +26,7 @@ summon minecraft:villager ~ ~ ~ {
                     id:"minecraft:enchanted_book",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:channeling,lvl:1},{id:loyalty,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:3},{id:vanishing_curse,lvl:1}]
+                        Enchantments:[{id:channeling,lvl:1},{id:loyalty,lvl:10},{id:mending,lvl:10},{id:unbreaking,lvl:10}{id:vanishing_curse,lvl:1}]
                     }
                 },
                 maxUses:10000
@@ -40,7 +40,7 @@ summon minecraft:villager ~ ~ ~ {
                     id:"minecraft:enchanted_book",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:sharpness,lvl:5},{id:unbreaking,lvl:3},{id:mending,lvl:1},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:vanishing_curse,lvl:1}]
+                        Enchantments:[{id:sharpness,lvl:10},{id:unbreaking,lvl:10},{id:mending,lvl:10},{id:sweeping,lvl:10},{id:looting,lvl:10},{id:vanishing_curse,lvl:1}]
                     }
                 },
                 maxUses:10000
@@ -54,7 +54,7 @@ summon minecraft:villager ~ ~ ~ {
                     id:"minecraft:enchanted_book",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:protection,lvl:4},{id:thorns,lvl:3},{id:vanishing_curse,lvl:1},{id:binding_curse,lvl:1}]
+                        Enchantments:[{id:mending,lvl:10},{id:unbreaking,lvl:10},{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1},{id:binding_curse,lvl:1}]
                     }
                 },
                 maxUses:10000
@@ -68,7 +68,7 @@ summon minecraft:villager ~ ~ ~ {
                     id:"minecraft:enchanted_book",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:protection,lvl:4},{id:thorns,lvl:3},{id:vanishing_curse,lvl:1}]
+                        Enchantments:[{id:mending,lvl:10},{id:unbreaking,lvl:10},{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
                     }
                 },
                 maxUses:10000
@@ -82,7 +82,7 @@ summon minecraft:villager ~ ~ ~ {
                     id:"minecraft:enchanted_book",
                     Count:1b,
                     tag:{
-                        Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:efficiency,lvl:5},{id:fortune,lvl:3},{id:vanishing_curse,lvl:1}]
+                        Enchantments:[{id:mending,lvl:10},{id:unbreaking,lvl:10},{id:efficiency,lvl:10},{id:fortune,lvl:10},{id:vanishing_curse,lvl:1}]
                     }
                 },
                 maxUses:10000

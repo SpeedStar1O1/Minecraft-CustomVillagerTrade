@@ -1,7 +1,8 @@
 summon minecraft:villager ~ ~ ~ {
     VillagerData: {
         level:10,
-        profession:"minecraft:cleric"
+        profession:"minecraft:cleric",
+        type:"snow"
     },
     Offers:{
         Recipes:[
@@ -26,10 +27,43 @@ summon minecraft:villager ~ ~ ~ {
                     Count:16b
                 },
                 maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:turtle_helmet",
+                    Count:1b
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:blaze_rod",
+                    Count:64b
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:experience_bottle",
+                    Count:64b
+                },
+                maxUses:10000
             }
 
         ]
     },
     Invulnreable:1b,
-    CustomName:'{"text":"John","color":"pink","italic":"false"}'
+    CustomName:'{"text":"Roger","color":"red","italic":"false"}'
 }
