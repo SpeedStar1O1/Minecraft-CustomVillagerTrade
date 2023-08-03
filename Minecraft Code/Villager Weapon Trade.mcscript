@@ -66,5 +66,5 @@ summon minecraft:villager ~ ~ ~ {
         ]
     },
     Invulnreable:1b,
-    CustomName:'{"text":"De'angelo","color":"white","italic":"false"}'
+    CustomName:'{"text":"De angelo","color":"white","italic":"false"}'
 }
