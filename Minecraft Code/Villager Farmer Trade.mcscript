@@ -75,5 +75,5 @@ summon minecraft:villager ~ ~ ~ {
         ]
     },
     Invulnreable:1b,
-    CustomName:'{"text":"Carlos","color":"black","italic":"false"}'
+    CustomName:'{"text":"Clarence","color":"yellow","italic":"false"}'
 }
