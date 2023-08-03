@@ -66,5 +66,5 @@ summon minecraft:villager ~ ~ ~ {
         ]
     },
     Invulnreable:1b,
-    CustomName:'{"text":"Morgan","color":"yellow","italic":"false"}'
+    CustomName:'{"text":"Dean","color":"orange","italic":"false"}'
 }
