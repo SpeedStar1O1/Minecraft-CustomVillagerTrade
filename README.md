@@ -1,8 +1,8 @@
-# Minecraft 1.19 Custom Villager Trade (no mods needed)
+# Minecraft 1.16-1.20 Custom Villager Trade (no mods needed)
 
 The code provided in the file enables the customization of various aspects of a villager, including their trades, professions, level, and name. It is important to note that this customization is only available in creative mode.
 
-The accompanying screenshots showcases an example of a customized librarian villager. One notable feature is the custom name given to the villager, which eliminates the need for a name tag or anvil to rename a spawned villager. Additionally, the name tag color has been modified to further personalize the villager.
+The accompanying screenshots showcase an example of a customized librarian villager. One notable feature is the custom name given to the villager, which eliminates the need for a name tag or anvil to rename a spawned villager. Additionally, the name tag color has been modified to further personalize the villager.
 
 Furthermore, the screenshot displays one of the customized trades for the librarian villager. The code allows for the creation of unique trades, such as offering one emerald in exchange for an OP enchantment book.
 
