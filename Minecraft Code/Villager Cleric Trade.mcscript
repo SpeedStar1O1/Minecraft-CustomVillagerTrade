@@ -19,6 +19,17 @@ summon minecraft:villager ~ ~ ~ {
             },
             {
                 buy:{
+                    id:"minecraft:gold_ingot",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:emerald",
+                    Count:64b
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
                     id:"minecraft:emerald",
                     Count:1b
                 },
