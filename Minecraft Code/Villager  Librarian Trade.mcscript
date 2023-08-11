@@ -17,6 +17,16 @@ summon minecraft:villager ~ ~ ~ {
                 },
                 maxUses:10000
             },
+            buy:{
+                    id:"minecraft:paper",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:emerald", 
+                    Count:64b
+                },
+                maxUses:10000
+            },
             {
                 buy:{
                     id:"minecraft:emerald",
