@@ -34,6 +34,39 @@ summon minecraft:villager ~ ~ ~ {
                     Count:1b
                 },
                 sell:{
+                    id:"minecraft:golden_carrot",
+                    Count:64b
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:golden_apple",
+                    Count:64b
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:enchanted_golden_apple",
+                    Count:64b
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
                     id:"minecraft:totem_of_undying", 
                     Count:64b
                 },
