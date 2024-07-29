@@ -62,90 +62,368 @@ summon minecraft:villager ~ ~ ~ {
                 maxUses:10000
             },
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
+                buy: {
+                id: "minecraft:emerald",
+                Count: 1
                 },
-                sell:{
-                    id:"minecraft:totem_of_undying", 
-                    Count:64b
+                sell: {
+                id: "minecraft:totem_of_undying",
+                Count: 64,
+                tag: {
+                    Enchantments: [
+                    { id: "minecraft:sharpness", lvl: 10 },
+                    { id: "minecraft:looting", lvl: 10 },
+                    { id: "minecraft:fire_aspect", lvl: 10}
+                    ],
+                    display: {
+                        Name:'{"text":"Figurine","color":"gold","italic":"false","bold":"true"}',
+                        Lore: [
+                            '{ "text" : "DIVINE", "color" : "gold" , "italic" : "false" , "bold" : "true" }',
+                            '{ "text" : "A Minecraft Figurine!!" , "color" : "gold", "italic" : "false" , "bold" : "false" }',
+                            '{ "text" : "COOL!" , "color" : "gold" , "italic" : "false" , "bold" : "false" }'
+                        ]
+                    },
+                    AttributeModifiers:[
+                        {
+                            AttributeName:"generic.attack_damage", 
+                            Name:"generic.attack_damage", 
+                            Amount:10000.0, 
+                            Operation:0, 
+                            Slot:"mainhand",
+                            UUID:[I;42853,1689024593,-201178,-1559272105]
+                        },
+                        {
+                            AttributeName:"generic.luck", 
+                            Name:"generic.luck", 
+                            Amount:10000.0, 
+                            Operation:0, 
+                            Slot:"offhand",
+                            UUID:[I;42853,1689024593,-201178,-1559272105]
+                        },
+                        {
+                            AttributeName:"generic.max_health", 
+                            Name:"generic.max_health", 
+                            Amount:60.0, 
+                            Operation:0, 
+                            Slot:"offhand",
+                            UUID:[I;42853,1689024593,-201178,-1559272105]
+                        }
+                    ]
+                }
                 },
-                maxUses:10000
+                maxUses: 10000,
             },
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
+                buy: {
+                id: "minecraft:emerald",
+                Count: 1
                 },
-                sell:{
-                    id:"minecraft:netherite_helmet",
-                    Count:1b,
-                    tag:{
-                        Unbreakable:1,
-                        Enchantments:[{id:aqua_affinity,lvl:10},{id:respiration,lvl:10},{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
-                    }
+                sell: {
+                id: "minecraft:netherite_helmet",
+                Count: 1,
+                tag: {
+                    Unbreakable:1,
+                    Enchantments:[
+                        {id:protection,lvl:10},
+                        {id:thorns,lvl:10},
+                        {id:aqua_affinity,lvl:10},
+                        {id:respiration,lvl:10}
+                    ],
+                    display: {
+                        Name:'{"text":"The Helmet Of Salvation","color":"aqua","italic":"false","bold":"true"}',
+                        Lore: [
+                            '{ "text" : "BLESSED", "color" : "aqua" , "italic" : "false" , "bold" : "true" }',
+                            '{ "text" : "Blessed by The Holy Spirit!" , "color" : "aqua", "italic" : "false" , "bold" : "false" }'
+                        ]
+                    },
+                    AttributeModifiers:[
+                        {
+                            AttributeName:"generic.max_health", 
+                            Name:"generic.max_health", 
+                            Amount:50.0, 
+                            Operation:0, 
+                            Slot:"head",
+                            UUID:[I;42853,1689024593,-201178,-1559272105]
+                        },
+                        {
+                            AttributeName:"generic.luck", 
+                            Name:"generic.luck", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"head",
+                            UUID:[I;42853,1689024593,-201178,-1559272105]
+                        },
+                        {
+                            AttributeName:"generic.armor_toughness", 
+                            Name:"generic.armor_toughness", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"head",
+                            UUID:[I;42853,1689024593,-201178,-1559272105]
+                        },
+                        {
+                            AttributeName:"generic.knockback_resistance", 
+                            Name:"generic.knockback_resistance", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"head",
+                            UUID:[I;42853,1689024593,-201178,-1559272105]
+                        },
+                        {
+                            AttributeName:"generic.armor", 
+                            Name:"generic.armor", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"head",
+                            UUID:[I;42853,1689024593,-201178,-1559272105]
+                        }
+                    ]
+                }
                 },
-                maxUses:10000
+                maxUses: 10000,
             },
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
+                buy: {
+                id: "minecraft:emerald",
+                Count: 1
                 },
-                sell:{
-                    id:"minecraft:netherite_chestplate",
-                    Count:1b,
-                    tag:{
-                        Unbreakable:1,
-                        Enchantments:[{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
-                    }
+                sell: {
+                id: "minecraft:netherite_chestplate",
+                Count: 1,
+                tag: {
+                    Unbreakable:1,
+                    Enchantments:[
+                        {id:protection,lvl:10},
+                        {id:thorns,lvl:10}
+                    ],
+                    display: {
+                        Name:'{"text":"The Breastplate Of Righteousness","color":"aqua","italic":"false","bold":"true"}',
+                        Lore: [
+                            '{ "text" : "BLESSED", "color" : "aqua" , "italic" : "false" , "bold" : "true" }',
+                            '{ "text" : "Blessed by The Holy Spirit!" , "color" : "aqua", "italic" : "false" , "bold" : "false" }'
+                        ]
+                    },
+                    AttributeModifiers:[
+                        {
+                            AttributeName:"generic.max_health", 
+                            Name:"generic.max_health", 
+                            Amount:50.0, 
+                            Operation:0, 
+                            Slot:"chest",
+                            UUID:[I;42854,1689024594,-201179,-1559272106]
+                        },
+                        {
+                            AttributeName:"generic.luck", 
+                            Name:"generic.luck", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"chest",
+                            UUID:[I;42854,1689024594,-201179,-1559272106]
+                        },
+                        {
+                            AttributeName:"generic.armor_toughness", 
+                            Name:"generic.armor_toughness", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"chest",
+                            UUID:[I;42854,1689024594,-201179,-1559272106]
+                        },
+                        {
+                            AttributeName:"generic.knockback_resistance", 
+                            Name:"generic.knockback_resistance", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"chest",
+                            UUID:[I;42854,1689024594,-201179,-1559272106]
+                        },
+                        {
+                            AttributeName:"generic.armor", 
+                            Name:"generic.armor", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"chest",
+                            UUID:[I;42854,1689024594,-201179,-1559272106]
+                        }
+                    ]
+                }
                 },
-                maxUses:10000
+                maxUses: 10000,
             },
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
+                buy: {
+                id: "minecraft:emerald",
+                Count: 1
                 },
-                sell:{
-                    id:"minecraft:netherite_leggings",
-                    Count:1b,
-                    tag:{
-                        Unbreakable:1,
-                        Enchantments:[{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
-                    }
+                sell: {
+                id: "minecraft:netherite_leggings",
+                Count: 1,
+                tag: {
+                    Unbreakable:1,
+                    Enchantments:[
+                        {id:protection,lvl:10},
+                        {id:thorns,lvl:10}
+                    ],
+                    display: {
+                        Name:'{"text":"The Breastplate Of Righteousness","color":"aqua","italic":"false","bold":"true"}',
+                        Lore: [
+                            '{ "text" : "BLESSED", "color" : "aqua" , "italic" : "false" , "bold" : "true" }',
+                            '{ "text" : "Blessed by The Holy Spirit!" , "color" : "aqua", "italic" : "false" , "bold" : "false" }'
+                        ]
+                    },
+                    AttributeModifiers:[
+                        {
+                            AttributeName:"generic.max_health", 
+                            Name:"generic.max_health", 
+                            Amount:50.0, 
+                            Operation:0, 
+                            Slot:"legs",
+                            UUID:[I;42855,1689024595,-201180,-1559272107]
+                        },
+                        {
+                            AttributeName:"generic.luck", 
+                            Name:"generic.luck", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"legs",
+                            UUID:[I;42855,1689024595,-201180,-1559272107]
+                        },
+                        {
+                            AttributeName:"generic.armor_toughness", 
+                            Name:"generic.armor_toughness", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"legs",
+                            UUID:[I;42855,1689024595,-201180,-1559272107]
+                        },
+                        {
+                            AttributeName:"generic.knockback_resistance", 
+                            Name:"generic.knockback_resistance", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"legs",
+                            UUID:[I;42855,1689024595,-201180,-1559272107]
+                        },
+                        {
+                            AttributeName:"generic.armor", 
+                            Name:"generic.armor",
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"legs",
+                            UUID:[I;42855,1689024595,-201180,-1559272107]
+                        }
+                    ]
+                }
                 },
-                maxUses:10000
+                maxUses: 10000,
             },
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
+                buy: {
+                id: "minecraft:emerald",
+                Count: 1
                 },
-                sell:{
-                    id:"minecraft:netherite_boots",
-                    Count:1b,
-                    tag:{
-                        Unbreakable:1,
-                        Enchantments:[{id:feather_falling,lvl:10},{id:soul_speed,lvl:10},{id:depth_strider,lvl:10},{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
-                    }
+                sell: {
+                id: "minecraft:netherite_boots",
+                Count: 1,
+                tag: {
+                    Unbreakable:1,
+                    Enchantments:[
+                        {id:protection,lvl:10},
+                        {id:thorns,lvl:10},
+                        {id:feather_falling,lvl:10},
+                        {id:depth_strider,lvl:10}
+                    ],
+                    display: {
+                        Name:'{"text":"The Gospel Of Peace","color":"aqua","italic":"false","bold":"true"}',
+                        Lore: [
+                            '{ "text" : "BLESSED", "color" : "aqua" , "italic" : "false" , "bold" : "true" }',
+                            '{ "text" : "Blessed by The Holy Spirit!" , "color" : "aqua", "italic" : "false" , "bold" : "false" }'
+                        ]
+                    },
+                    AttributeModifiers:[
+                        {
+                            AttributeName:"generic.max_health", 
+                            Name:"generic.max_health", 
+                            Amount:50.0, 
+                            Operation:0, 
+                            Slot:"feet",
+                            UUID:[I;42856,1689024596,-201181,-1559272108]
+                        },
+                        {
+                            AttributeName:"generic.luck", 
+                            Name:"generic.luck", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"feet",
+                            UUID:[I;42856,1689024596,-201181,-1559272108]
+                        },
+                        {
+                            AttributeName:"generic.armor_toughness", 
+                            Name:"generic.armor_toughness",
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"feet",
+                            UUID:[I;42856,1689024596,-201181,-1559272108]
+                        },
+                        {
+                            AttributeName:"generic.knockback_resistance", 
+                            Name:"generic.knockback_resistance", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"feet",
+                            UUID:[I;42856,1689024596,-201181,-1559272108]
+                        },
+                        {
+                            AttributeName:"generic.armor", 
+                            Name:"generic.armor", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"feet",
+                            UUID:[I;42856,1689024596,-201181,-1559272108]
+                        }
+                    ]
+                }
                 },
-                maxUses:10000
+                maxUses: 10000,
             },
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
+                buy: {
+                id: "minecraft:emerald",
+                Count: 1
                 },
-                sell:{
-                    id:"minecraft:shield",
-                    Count:1b,
-                    tag:{
-                        Unbreakable:1,
-                        Enchantments:[{id:vanishing_curse,lvl:1}]
-                    }
+                sell: {
+                id: "minecraft:shield",
+                Count: 1,
+                tag: {
+                    Unbreakable:1,
+                    Enchantments:[{id:unbreaking,lvl:10}],
+                    display: {
+                        Name:'{"text":"The Shield Of Faith","color":"aqua","italic":"false","bold":"true"}',
+                        Lore: [
+                            '{ "text" : "BLESSED", "color" : "aqua" , "italic" : "false" , "bold" : "true" }',
+                            '{ "text" : "Blessed by The Holy Spirit!" , "color" : "aqua", "italic" : "false" , "bold" : "false" }'
+                        ]
+                    },
+                    AttributeModifiers:[
+                        {
+                            AttributeName:"generic.luck", 
+                            Name:"generic.luck", 
+                            Amount:10000.0, 
+                            Operation:0, 
+                            Slot:"offhand",
+                            UUID:[I;42853,1689024593,-201178,-1559272105]
+                        },
+                        {
+                            AttributeName:"generic.max_health", 
+                            Name:"generic.max_health", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"offhand",
+                            UUID:[I;42853,1689024593,-201178,-1559272105]
+                        }
+                    ]
+                }
                 },
-                maxUses:10000
+                maxUses: 10000,
             },
             {
                 buy:{
@@ -163,19 +441,72 @@ summon minecraft:villager ~ ~ ~ {
                 maxUses:10000
             },
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
+                buy: {
+                id: "minecraft:emerald",
+                Count: 1
                 },
-                sell:{
-                    id:"minecraft:elytra",
-                    Count:1b,
-                    tag:{
-                        Unbreakable:1,
-                        Enchantments:[{id:protection,lvl:10},{id:thorns,lvl:10},{id:vanishing_curse,lvl:1}]
-                    }
+                sell: {
+                id: "minecraft:elytra",
+                Count: 1,
+                tag: {
+                    Unbreakable:1,
+                    Enchantments:[
+                            {id:unbreaking,lvl:10},
+                            {id:protection,lvl:10},
+                            {id:thorns,lvl:10}
+                        ],
+                    display: {
+                        Name:'{"text":"Wings Of Radiance","color":"gold","italic":"false","bold":"true"}',
+                        Lore: [
+                            '{ "text" : "DIVINE", "color" : "gold" , "italic" : "false" , "bold" : "true" }',
+                            '{ "text" : "Descend upon the realm," , "color" : "gold", "italic" : "false" , "bold" : "false" }',
+                            '{ "text" : "bathing all in the splendor of its ethereal luminescence!" , "color" : "gold", "italic" : "false" , "bold" : "false" }'
+                        ]
+                    },
+                    AttributeModifiers:[
+                        {
+                            AttributeName:"generic.max_health", 
+                            Name:"generic.max_health", 
+                            Amount:50.0, 
+                            Operation:0, 
+                            Slot:"chest",
+                            UUID:[I;42854,1689024594,-201179,-1559272106]
+                        },
+                        {
+                            AttributeName:"generic.luck", 
+                            Name:"generic.luck", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"chest",UUID:[I;42854,1689024594,-201179,-1559272106]
+                        },
+                        {
+                            AttributeName:"generic.armor_toughness", 
+                            Name:"generic.armor_toughness", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"chest",
+                            UUID:[I;42854,1689024594,-201179,-1559272106]
+                        },
+                        {
+                            AttributeName:"generic.knockback_resistance", 
+                            Name:"generic.knockback_resistance", 
+                            Amount:100.0, 
+                            Operation:0, 
+                            Slot:"chest",
+                            UUID:[I;42854,1689024594,-201179,-1559272106]
+                        },
+                        {
+                            AttributeName:"generic.armor", 
+                            Name:"generic.armor", 
+                            Amount:100.0, 
+                            Operation:0,
+                            Slot:"chest",
+                            UUID:[I;42854,1689024594,-201179,-1559272106]
+                        }
+                    ]
+                }
                 },
-                maxUses:10000
+                maxUses: 10000,
             },
             {
                 buy:{
@@ -208,19 +539,119 @@ summon minecraft:villager ~ ~ ~ {
                 maxUses:10000
             },
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
+                buy: {
+                id: "minecraft:emerald",
+                Count: 1
                 },
-                sell:{
-                    id:"minecraft:netherite_sword",
-                    Count:1b,
-                    tag:{
-                        Unbreakable:1,
-                        Enchantments:[{id:sharpness,lvl:10},{id:looting,lvl:10},{id:sweeping,lvl:10},{id:fire_aspect,lvl:10},{id:knockback,lvl:2}]
-                    }
+                sell: {
+                id: "minecraft:netherite_sword",
+                Count: 1,
+                tag: {
+                    Unbreakable:1,
+                    Enchantments: [
+                        {id:"sharpness",lvl:10},
+                        {id:"looting",lvl:10},
+                        {id:"fire_aspect",lvl:10},
+                        {id:"sweeping",lvl:10}
+                    ],
+                    display: {
+                        Name:'{"text":"The Sword Of The Spirit / Word Of God","color":"aqua","italic":"false","bold":"true"}',
+                        Lore: [
+                            '{ "text" : "BLESSED", "color" : "aqua" , "italic" : "false" , "bold" : "true" }',
+                            '{ "text" : "Blessed by The Holy Spirit!" , "color" : "aqua", "italic" : "false" , "bold" : "false" }',
+                        ]
+                    },
+                    AttributeModifiers:[
+                        {
+                            AttributeName:"generic.attack_damage", 
+                            Name:"generic.attack_damage", 
+                            Amount:10000.0, 
+                            Operation:0, 
+                            Slot:"mainhand",
+                            UUID:[I;42853,1689024593,-201178,-1559272105]
+                        },
+                    ]
+                }
                 },
-                maxUses:10000
+                maxUses: 10000,
+            },
+            {
+                buy: {
+                id: "minecraft:emerald",
+                Count: 1
+                },
+                sell: {
+                id: "minecraft:netherite_shovel",
+                Count: 1,
+                tag: {
+                    Unbreakable:1,
+                    Enchantments: [
+                        {id:efficiency,lvl:10},
+                        {id:silk_touch,lvl:1}
+                    ],
+                    display: {
+                        Name:'{"text":"Ace Of Spades","color":"dark_purple","italic":"false","bold":"true"}',
+                        Lore: [
+                            '{ "text" : "LEGENDARY", "color" : "dark_purple" , "italic" : "false" , "bold" : "true" }',
+                            '{ "text" : "I am coming home, Ace." , "color" : "dark_purple", "italic" : "false" , "bold" : "false" }',
+                        ]
+                    },
+                }
+                },
+                maxUses: 10000,
+            },
+            {
+                buy: {
+                id: "minecraft:emerald",
+                Count: 1
+                },
+                sell: {
+                id: "minecraft:netherite_pickaxe",
+                Count: 1,
+                tag: {
+                    Unbreakable:1,
+                    Enchantments: [
+                        {id:efficiency,lvl:10},
+                        {id:fortune,lvl:10},
+                        {id:fortune,lvl:10}
+                    ],
+                    display: {
+                        Name:'{"text":"The Menagerie","color":"dark_purple","italic":"false","bold":"true"}',
+                        Lore: [
+                            '{ "text" : "LEGENDARY", "color" : "dark_purple" , "italic" : "false" , "bold" : "true" }',
+                            '{ "text" : "LAY EYES ON MY REGAL PROSPERITY!" , "color" : "dark_purple", "italic" : "false" , "bold" : "false" }',
+                        ]
+                    },
+                }
+                },
+                maxUses: 10000,
+            },
+            {
+                buy: {
+                id: "minecraft:emerald",
+                Count: 1
+                },
+                sell: {
+                id: "minecraft:netherite_axe",
+                Count: 1,
+                tag: {
+                    Unbreakable:1,
+                    Enchantments: [
+                        {id:efficiency,lvl:10},
+                        {id:fortune,lvl:10},
+                    ],
+                    display: {
+                        Name:'{"text":"Carver Of Worlds","color":"dark_purple","italic":"false","bold":"true"}',
+                        Lore: [
+                            '{ "text" : "LEGENDARY", "color" : "dark_purple" , "italic" : "false" , "bold" : "true" }',
+                            '{ "text" : "A visionary artisan whose mastery" , "color" : "dark_purple", "italic" : "false" , "bold" : "false" }',
+                            '{ "text" : "of the cosmos is rivaled only by the celestial architects themselves!" , "color" : "dark_purple", "italic" : "false" , "bold" : "false" }',
+                        
+                        ]
+                    },
+                }
+                },
+                maxUses: 10000,
             },
             {
                 buy:{
@@ -228,56 +659,12 @@ summon minecraft:villager ~ ~ ~ {
                     Count:1b
                 },
                 sell:{
-                    id:"minecraft:netherite_shovel",
-                    Count:1b,
-                    tag:{
-                        Unbreakable:1,
-                        Enchantments:[{id:efficiency,lvl:10},{id:silk_touch,lvl:1}]
-                    }
-                },
-                maxUses:10000
-            },
-            {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
-                },
-                sell:{
-                    id:"minecraft:netherite_pickaxe",
-                    Count:1b,
-                    tag:{
-                        Unbreakable:1,
-                        Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:3}]
-                    }
-                },
-                maxUses:10000
-            },
-            {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
-                },
-                sell:{
-                    id:"minecraft:netherite_axe",
-                    Count:1b,
-                    tag:{
-                        Unbreakable:1,
-                        Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:3}]
-                    }
-                },
-                maxUses:10000
-            },
-            {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
-                },
-                sell:{
+                    Unbreakable:1,
                     id:"minecraft:netherite_hoe",
                     Count:1b,
                     tag:{
                         Unbreakable:1,
-                        Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:3}]
+                        Enchantments:[{id:efficiency,lvl:10},{id:fortune,lvl:10}]
                     }
                 },
                 maxUses:10000

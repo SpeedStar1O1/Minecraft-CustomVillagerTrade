@@ -6,7 +6,7 @@ summon minecraft:villager ~ ~ ~ {
     },
     Offers:{
         Recipes:[
-            {
+                        {
                 buy:{
                     id:"minecraft:iron_ingot",
                     Count:1b
@@ -24,6 +24,28 @@ summon minecraft:villager ~ ~ ~ {
                 },
                 sell:{
                     id:"minecraft:emerald", 
+                    Count:64b
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:iron_ingot", 
+                    Count:64b
+                },
+                maxUses:10000
+            },
+            {
+                buy:{
+                    id:"minecraft:emerald",
+                    Count:1b
+                },
+                sell:{
+                    id:"minecraft:gold_ingot", 
                     Count:64b
                 },
                 maxUses:10000
