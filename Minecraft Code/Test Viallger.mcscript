@@ -2,7 +2,7 @@ summon minecraft:villager ~ ~ ~ {
   VillagerData: {
     level: 10,
     profession: "minecraft:unemployed",
-    type: "snow"
+    type: "butcher"
   },
   Offers: {
     Recipes:[
