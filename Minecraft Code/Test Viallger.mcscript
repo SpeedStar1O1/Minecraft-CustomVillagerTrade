@@ -1,8 +1,8 @@
 summon minecraft:villager ~ ~ ~ {
   VillagerData: {
     level: 10,
-    profession: "minecraft:unemployed",
-    type: "butcher"
+    profession: "minecraft:butcher",
+    type: "plains"
   },
   Offers: {
     Recipes:[
