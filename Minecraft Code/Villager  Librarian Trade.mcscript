@@ -1,105 +1,239 @@
 summon minecraft:villager ~ ~ ~ {
-    VillagerData: {
+
+    VillagerData:{
+
         level:10,
+
         profession:"minecraft:librarian",
-        type:"snow"
+
+        type:"minecraft:snow"
+
     },
+
     Offers:{
+
         Recipes:[
+
             {
-                buy:{
-                    id:"minecraft:book",
-                    Count:1b
-                },
-                sell:{
-                    id:"minecraft:emerald", 
-                    Count:64b
-                },
+
+                buy:{id:"minecraft:emerald",count:1},
+
+                sell:{id:"minecraft:bookshelf",count:64},
+
                 maxUses:10000
+
             },
+
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
-                },
+
+                buy:{id:"minecraft:emerald",count:1},
+
+                sell:{id:"minecraft:name_tag",count:64},
+
+                maxUses:10000
+
+            },
+
+            {
+
+                buy:{id:"minecraft:book",count:1},
+
+                sell:{id:"minecraft:emerald",count:64},
+
+                maxUses:10000
+
+            },
+
+            {
+
+                buy:{id:"minecraft:paper",count:1},
+
+                sell:{id:"minecraft:emerald",count:64},
+
+                maxUses:10000
+
+            },
+
+            {
+
+                buy:{id:"minecraft:emerald",count:1},
+
                 sell:{
+
                     id:"minecraft:enchanted_book",
-                    Count:1b,
-                    tag:{
-                        Enchantments:[{id:channeling,lvl:1},{id:loyalty,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:3},{id:vanishing_curse,lvl:1}]
+
+                    count:1,
+
+                    components:{
+
+                        "minecraft:stored_enchantments":{
+
+                            "minecraft:channeling":1,
+
+                            "minecraft:loyalty":3,
+
+                            "minecraft:unbreaking":3,
+
+                            "minecraft:mending":3,
+
+                        }
+
                     }
+
                 },
+
                 maxUses:10000
+
             },
+
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
-                },
+
+                buy:{id:"minecraft:emerald",count:1},
+
                 sell:{
+
                     id:"minecraft:enchanted_book",
-                    Count:1b,
-                    tag:{
-                        Enchantments:[{id:sharpness,lvl:5},{id:unbreaking,lvl:3},{id:mending,lvl:1},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:vanishing_curse,lvl:1}]
+
+                    count:1,
+
+                    components:{
+
+                        "minecraft:stored_enchantments":{
+
+                            "minecraft:sharpness":5,
+
+                            "minecraft:unbreaking":3,
+
+                            "minecraft:mending":1,
+
+                            "minecraft:sweeping_edge":3,
+
+                            "minecraft:looting":3,
+
+                        }
+
                     }
+
                 },
+
                 maxUses:10000
+
             },
+
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
-                },
+
+                buy:{id:"minecraft:emerald",count:1},
+
                 sell:{
+
                     id:"minecraft:enchanted_book",
-                    Count:1b,
-                    tag:{
-                        Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:protection,lvl:4},{id:thorns,lvl:3},{id:vanishing_curse,lvl:1},{id:binding_curse,lvl:1}]
+
+                    count:1,
+
+                    components:{
+
+                        "minecraft:stored_enchantments":{
+
+                            "minecraft:mending":1,
+
+                            "minecraft:unbreaking":3,
+
+                            "minecraft:protection":4,
+
+                            "minecraft:thorns":3
+
+                        }
+
                     }
+
                 },
+
                 maxUses:10000
+
             },
+
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
-                },
+
+                buy:{id:"minecraft:emerald",count:1},
+
                 sell:{
+
                     id:"minecraft:enchanted_book",
-                    Count:1b,
-                    tag:{
-                        Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:protection,lvl:4},{id:thorns,lvl:3},{id:vanishing_curse,lvl:1}]
+
+                    count:1,
+
+                    components:{
+
+                        "minecraft:stored_enchantments":{
+
+                            "minecraft:mending":1,
+
+                            "minecraft:unbreaking":3,
+
+                            "minecraft:protection":4,
+
+                            "minecraft:thorns":3
+
+                        }
+
                     }
+
                 },
+
                 maxUses:10000
+
             },
+
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
-                },
+
+                buy:{id:"minecraft:emerald",count:1},
+
                 sell:{
+
                     id:"minecraft:enchanted_book",
-                    Count:1b,
-                    tag:{
-                        Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:3},{id:efficiency,lvl:5},{id:fortune,lvl:3},{id:vanishing_curse,lvl:1}]
+
+                    count:1,
+
+                    components:{
+
+                        "minecraft:stored_enchantments":{
+
+                            "minecraft:mending":1,
+
+                            "minecraft:unbreaking":3,
+
+                            "minecraft:efficiency":5,
+
+                            "minecraft:fortune":3,
+
+                        }
+
                     }
+
                 },
+
                 maxUses:10000
+
             },
+
             {
-                buy:{
-                    id:"minecraft:emerald",
-                    Count:1b
-                },
-                sell:{
-                    id:"minecraft:totem_of_undying", 
-                    Count:1b
-                },
+
+                buy:{id:"minecraft:emerald",count:1},
+
+                sell:{id:"minecraft:totem_of_undying",count:1},
+
                 maxUses:10000
+
             }
+
         ]
+
     },
-    Invulnreable:1b,
-    CustomName:'{"text":"Darwin","color":"green","italic":"false"}'
+
+    Invulnerable:1b,
+
+    CustomName:'{"text":"Darwin","color":"green","italic":false}',
+
+    PersistenceRequired:1b
+
 }
